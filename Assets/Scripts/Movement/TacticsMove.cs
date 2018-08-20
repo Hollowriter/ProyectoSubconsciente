@@ -78,4 +78,17 @@ public class TacticsMove : MonoBehaviour
             }
         }
     }
+
+    public void MoveToTile(Tile thyTile)
+    {
+        path.Clear();
+        thyTile.target = true;
+        moving = true;
+        Tile next = thyTile;
+        while (next != null)
+        {
+            path.Push(next);
+            next = next.parent;
+        }
+    }
 }
