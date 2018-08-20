@@ -5,7 +5,7 @@ using UnityEditor;
 
 public class MenuScript // Como no va a estar agregado en ningun objeto, no tiene porque ser monobehaviour
 {
-    [MenuItem("Tools/Assign_Tile_Material")]
+    [MenuItem("Tools/Assign_Tile_Material")] // Esto es una herramienta para asignar materiales
     public static void AssignTileMaterial()
     {
         GameObject[] tiles = GameObject.FindGameObjectsWithTag("Tile");
@@ -15,7 +15,7 @@ public class MenuScript // Como no va a estar agregado en ningun objeto, no tien
             t.GetComponent<Renderer>().material = material;
         }
     }
-   [MenuItem("Tools/Assign_Tile_Script")]
+   [MenuItem("Tools/Assign_Tile_Script")] // Esto es una herramienta para asginar scripts
     public static void AssignTileScript()
     {
         GameObject[] tiles = GameObject.FindGameObjectsWithTag("Tile");
