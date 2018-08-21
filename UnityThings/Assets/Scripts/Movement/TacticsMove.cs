@@ -9,6 +9,7 @@ public class TacticsMove : MonoBehaviour
     GameObject[] tiles;
     Tile currentTile;
 
+    public bool turn = false;
     public bool moving = false;
     public int move = 2;
     public float jumpHeight = 1;
@@ -23,6 +24,7 @@ public class TacticsMove : MonoBehaviour
     {
         tiles = GameObject.FindGameObjectsWithTag("Tile");
         halfHeight = GetComponent<Collider>().bounds.extents.y;
+        TurnManager.AddUnit(this);
     }
 
     public void GetCurrentTile() // Obtiene la tile donde esta el personaje
@@ -116,10 +118,11 @@ public class TacticsMove : MonoBehaviour
         {
             RemoveSelectableTiles();
             moving = false;
+            TurnManager.EndTurn();
         }
     }
 
-    protected void RemoveSelectableTiles()
+    protected void RemoveSelectableTiles() // Limpia la lista de tiles seleccionables
     {
         if (currentTile != null)
         {
@@ -142,5 +145,17 @@ public class TacticsMove : MonoBehaviour
     void SetHorizontalVelocity()
     {
         velocity = heading * moveSpeed;
+    }
+
+    public void BeginTurn()
+    {
+        turn = true;
+        Debug.Log("BeginTurn");
+    }
+
+    public void EndTurn()
+    {
+        turn = false;
+        Debug.Log("EndTurn");
     }
 }
