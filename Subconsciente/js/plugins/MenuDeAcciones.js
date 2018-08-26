@@ -51,11 +51,12 @@
     	this.addGameEndCommand();
 	};
 	Scene_Menu.prototype.commandInteract = function (){
-		//SceneManager.push(Scene_Interact);
 		SceneManager.push(Scene_Map);
-		Scene_MenuBase.prototype.stop.call(this);
+		/*$gameSwitches.value[0003] = true;*/
+		//$gameMessage.add("Psicologo: no hay nada con que interactuar muchacho");
+		/*Scene_MenuBase.prototype.stop.call(this);
 		this._commandWindow.close();
-		this._commandWindow.deactivate();
+		this._commandWindow.deactivate();*/
 	}
 	Window_MenuCommand.prototype.addInteractCommand = function(){
 		this.addCommand('Interact', 'interact', true);

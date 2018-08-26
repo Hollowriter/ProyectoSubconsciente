@@ -1,6 +1,6 @@
 [
 null,
-{"id":1,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":1,"list":[{"code":355,"indent":0,"parameters":["if ($gameSwitches.value[0001] == false){"]},{"code":655,"indent":0,"parameters":["if ($gameSwitches.value[0003] == true){"]},{"code":655,"indent":0,"parameters":["$gameMessage.add(\"No hay nada con que interactuar muchacho\");"]},{"code":655,"indent":0,"parameters":["$gameSwitches.value[0003] == false;"]},{"code":655,"indent":0,"parameters":["}"]},{"code":655,"indent":0,"parameters":["}"]},{"code":0,"indent":0,"parameters":[]}],"name":"EventoNoInteraccion","switchId":3,"trigger":1},
 {"id":2,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
 {"id":3,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
 {"id":4,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0}
