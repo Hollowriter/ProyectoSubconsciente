@@ -20,7 +20,7 @@
     	//this._commandWindow.setHandler('status',    this.commandPersonal.bind(this));
     	//this._commandWindow.setHandler('formation', this.commandFormation.bind(this));
     	//this._commandWindow.setHandler('options',   this.commandOptions.bind(this));
-    	this._commandWindow.setHandler('interact',      this.commandInteract.bind(this));
+    	//this._commandWindow.setHandler('interact',      this.commandInteract.bind(this)); // Esto de aqui se cambia (Modificar el GDD)
     	this._commandWindow.setHandler('save',      this.commandSave.bind(this));
     	this._commandWindow.setHandler('gameEnd',   this.commandGameEnd.bind(this));
     	this._commandWindow.setHandler('cancel',    this.popScene.bind(this));
@@ -43,22 +43,22 @@
 	};
 	Window_MenuCommand.prototype.makeCommandList = function() {
     	this.addMainCommands();
-    	this.addInteractCommand();
+    	//this.addInteractCommand();
     	//this.addFormationCommand();
     	//this.addOriginalCommands();
     	//this.addOptionsCommand();
     	this.addSaveCommand();
     	this.addGameEndCommand();
 	};
-	Scene_Menu.prototype.commandInteract = function (){
-		SceneManager.push(Scene_Map);
+	/*Scene_Menu.prototype.commandInteract = function (){
+		SceneManager.push(Scene_Map);*/
 		/*$gameSwitches.value[0003] = true;*/
 		//$gameMessage.add("Psicologo: no hay nada con que interactuar muchacho");
 		/*Scene_MenuBase.prototype.stop.call(this);
 		this._commandWindow.close();
 		this._commandWindow.deactivate();*/
-	}
-	Window_MenuCommand.prototype.addInteractCommand = function(){
+	//} // Esto de aqui se cambia. (Modificar el GDD)
+	/*Window_MenuCommand.prototype.addInteractCommand = function(){
 		this.addCommand('Interact', 'interact', true);
-	};
+	};*/ // Esto de aqui se cambia (Modificar el GDD)
 })();
