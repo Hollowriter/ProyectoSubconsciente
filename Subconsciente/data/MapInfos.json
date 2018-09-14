@@ -1,5 +1,13 @@
 [
 null,
 {"id":1,"expanded":false,"name":"MAP001","order":1,"parentId":0,"scrollX":512.8888888888889,"scrollY":329.77777777777777},
-{"id":2,"expanded":false,"name":"Coso","order":2,"parentId":0,"scrollX":782.2222222222222,"scrollY":355.55555555555554}
+{"id":2,"expanded":true,"name":"Coso","order":2,"parentId":0,"scrollX":832,"scrollY":637.3333333333334},
+{"id":3,"expanded":true,"name":"PlantaBaja","order":3,"parentId":0,"scrollX":512.8888888888889,"scrollY":329.77777777777777},
+{"id":4,"expanded":true,"name":"SubsueloPrueba1-1","order":4,"parentId":0,"scrollX":832,"scrollY":640},
+{"id":5,"expanded":true,"name":"SubsueloPrueba1-2","order":6,"parentId":0,"scrollX":832,"scrollY":640},
+{"id":6,"expanded":false,"name":"SubsueloPrueba1-1(SinPsicologo)","order":5,"parentId":0,"scrollX":832,"scrollY":640},
+{"id":7,"expanded":true,"name":"SubsueloPrueba2-1","order":8,"parentId":0,"scrollX":832,"scrollY":640},
+{"id":8,"expanded":true,"name":"SubsueloPrueba2-1(SinPsicolgo)","order":7,"parentId":0,"scrollX":512.8888888888889,"scrollY":329.77777777777777},
+{"id":9,"expanded":true,"name":"SubsueloPrueba2-2","order":9,"parentId":0,"scrollX":0,"scrollY":0},
+{"id":10,"expanded":true,"name":"SubsueloPrueba3-1","order":10,"parentId":0,"scrollX":512.8888888888889,"scrollY":329.77777777777777}
 ]
