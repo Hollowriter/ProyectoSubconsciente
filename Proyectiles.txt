@@ -1,0 +1,36 @@
+     Galv.PROJ.atTarget(sid,tid,s,d,'img',anim,'action',[r],[t],z,pid,size);
+     Galv.PROJ.dir(sid,dir,s,d,'img',anim,'action',[r],[t],z,pid,size);
+
+
+sid     = start event id or -1 for player or 'm' for mouse pos
+tid     = target event id or -1 for player or 'm' for mouse pos
+dir     = direction fired insead of at a target. Can be: 1,2,3,4,6,7,8,9,0
+          Numbers are numpad directions. 0 for facing direction of target
+s       = speed - how fast the projectile travels
+d       = distance - the max number of tiles the projectile will travel
+img     = graphic to use from /img/pictures/
+          ANIMATED IMAGES:
+          The graphic can have parenthesis that contains frames and speed.
+          imageName(frames,speed)... eg: bullet(8,5)
+          Have no parenthesis for the projectiles to be 1 frame
+action  = actions to execute when the projectile hits a player or event.
+          These actions only affect events with <projEffect> comment
+          Player and event actions are separated by | symbol
+          eg. playerAction|eventAction
+          Actions below:
+          c(x)        // run common event x
+          S(x:t)      // change switch x to t (on or off)
+          s(L:t)      // change self switch L to t (on or off) event only
+          e           // erase event - event only
+r       = list of regions projectile will hit and stop on. Blank = none
+t       = list of terrains projectile will hit and stop on. Blank = none
+z       = z value (leave blank to default to 3, same as characters)
+          2 or less will hit characters "below character" priority
+          2.1-3.9 will hit characters "same as character" priority
+          (3 is same as chars. < 3 draws under & > 3 draws over chars)
+          4+ will hit characters "above character" priority
+pid     = an identifier number id for the projectile. Left blank it will
+          default to 1. This is used for events to determine if the
+          projectile will go through or contact them (more below)
+size    = the distance from the center of a projectile that will cause
+          a collision. Leave this blank for collision based on a point
