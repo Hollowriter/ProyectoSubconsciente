@@ -1,0 +1,4 @@
+(($gameMap.event(this.eventId()).x - $gamePlayer.x).abs + ($gameMap.event(this.eventId()).y - $gamePlayer.y).abs) == 1 // Formula no funcional para el campo de vision
+($gameMap.event(this.eventId()).x - $gamePlayer.x) < 0
+($gameMap.event(this.eventId()).y - $gamePlayer.y) < 0
+(($gameMap.event(this.eventId()).x - $gamePlayer.x) + ($gameMap.event(this.eventId()).y - $gamePlayer.y)) == 1
