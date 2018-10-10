@@ -1,6 +1,13 @@
 // ===========================================================================
 //	WrittenDocumentPlugin.js
 // ===========================================================================
+
+/*:
+* @author Cosito
+* @plugindesc A plugin to read and write files using Node.js
+*
+*/
+
 (function(){
 
 	function setup(){
