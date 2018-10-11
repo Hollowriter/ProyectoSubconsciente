@@ -28,8 +28,8 @@
 		};
 
 		WrittenDocumentFS.createPath = function (thyPath){
-			thyPath = (Utils.isNwjs() && Utils.isOptionValid("test")) ? thyPath : "/www/" + thyPath;
-			var path = window.location.pathname.replace(/(\/www|)\/[^\/]*$/, thyPath);
+			thyPath = (Utils.isNwjs() && Utils.isOptionValid("test")) ? thyPath : "//" + thyPath;
+			var path = window.location.pathname.replace(/(\/|)\/[^\/]*$/, thyPath);
 			if (path.match(/^\/([A-Z]\:)/)){
 				path = path.slice(1);
 			}
