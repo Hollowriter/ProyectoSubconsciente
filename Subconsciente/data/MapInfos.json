@@ -13,7 +13,7 @@ null,
 {"id":11,"expanded":true,"name":"SubsueloTrampas1","order":11,"parentId":0,"scrollX":832,"scrollY":640},
 {"id":12,"expanded":false,"name":"SubsueloTrampas2","order":12,"parentId":0,"scrollX":512.8888888888889,"scrollY":329.77777777777777},
 {"id":13,"expanded":true,"name":"SubsueloTrampas1(SinPsicologo)","order":13,"parentId":0,"scrollX":512.8888888888889,"scrollY":329.77777777777777},
-{"id":14,"expanded":false,"name":"SubsueloTrampas3Fin","order":14,"parentId":0,"scrollX":0,"scrollY":0},
-{"id":15,"expanded":true,"name":"SubsueloEnemigos1","order":15,"parentId":0,"scrollX":819,"scrollY":461},
-{"id":16,"expanded":true,"name":"SubsueloEnemigos2","order":16,"parentId":15,"scrollX":811,"scrollY":531}
+{"id":14,"expanded":false,"name":"SubsueloTrampas3Fin","order":14,"parentId":0,"scrollX":512.8888888888889,"scrollY":329.77777777777777},
+{"id":15,"expanded":true,"name":"SubsueloEnemigos1","order":15,"parentId":0,"scrollX":512.8888888888889,"scrollY":329.77777777777777},
+{"id":16,"expanded":true,"name":"SubsueloEnemigos2","order":16,"parentId":15,"scrollX":505.77777777777777,"scrollY":418.6666666666667}
 ]
