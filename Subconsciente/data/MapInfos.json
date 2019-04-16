@@ -17,7 +17,7 @@ null,
 {"id":15,"expanded":true,"name":"SegundoSubsueloEnemigos","order":15,"parentId":7,"scrollX":512.8888888888889,"scrollY":329.77777777777777},
 {"id":16,"expanded":true,"name":"TercerSubsueloEnemigos","order":16,"parentId":7,"scrollX":505.77777777777777,"scrollY":400.8888888888889},
 {"id":17,"expanded":false,"name":"EscenaDeInicio","order":3,"parentId":0,"scrollX":512.8888888888889,"scrollY":329.77777777777777},
-{"id":18,"expanded":false,"name":"Meta","order":18,"parentId":0,"scrollX":832,"scrollY":640},
+{"id":18,"expanded":false,"name":"Meta","order":18,"parentId":0,"scrollX":819,"scrollY":461},
 {"id":19,"expanded":false,"name":"Final","order":19,"parentId":0,"scrollX":832,"scrollY":640},
 {"id":20,"expanded":false,"name":"FinalConsultorio","order":20,"parentId":0,"scrollX":512.8888888888889,"scrollY":329.77777777777777}
 ]
