@@ -19,6 +19,6 @@ null,
 {"id":17,"expanded":false,"name":"EscenaDeInicio","order":3,"parentId":0,"scrollX":472.8888888888889,"scrollY":318.6666666666667},
 {"id":18,"expanded":false,"name":"Meta","order":18,"parentId":0,"scrollX":472.8888888888889,"scrollY":342.6666666666667},
 {"id":19,"expanded":false,"name":"Final","order":19,"parentId":0,"scrollX":472.8888888888889,"scrollY":342.6666666666667},
-{"id":20,"expanded":false,"name":"FinalConsultorio","order":20,"parentId":0,"scrollX":534,"scrollY":312},
-{"id":21,"expanded":false,"name":"Test","order":21,"parentId":0,"scrollX":472.8888888888889,"scrollY":281.3333333333333}
+{"id":20,"expanded":false,"name":"FinalConsultorio","order":20,"parentId":0,"scrollX":474.6666666666667,"scrollY":312},
+{"id":21,"expanded":false,"name":"test","order":21,"parentId":0,"scrollX":474.6666666666667,"scrollY":271.1111111111111}
 ]
