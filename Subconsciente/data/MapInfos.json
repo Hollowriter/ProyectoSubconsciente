@@ -1,8 +1,8 @@
 [
 null,
-{"id":1,"expanded":false,"name":"MAP001","order":1,"parentId":0,"scrollX":472.8888888888889,"scrollY":318.6666666666667},
+{"id":1,"expanded":false,"name":"MAP001","order":1,"parentId":0,"scrollX":474.6666666666667,"scrollY":319.1111111111111},
 {"id":2,"expanded":true,"name":"Coso","order":2,"parentId":1,"scrollX":811,"scrollY":495},
-{"id":3,"expanded":true,"name":"PlantaBaja","order":4,"parentId":0,"scrollX":472.8888888888889,"scrollY":318.6666666666667},
+{"id":3,"expanded":true,"name":"PlantaBaja","order":4,"parentId":0,"scrollX":474.6666666666667,"scrollY":271.1111111111111},
 {"id":4,"expanded":true,"name":"PrimerSubsuelo","order":5,"parentId":0,"scrollX":534,"scrollY":319},
 {"id":5,"expanded":true,"name":"SegundoSubsuelo","order":7,"parentId":4,"scrollX":534,"scrollY":305},
 {"id":6,"expanded":false,"name":"PrimerSubsuelo(SinPsicologo)","order":6,"parentId":4,"scrollX":472.8888888888889,"scrollY":305.3333333333333},
@@ -20,5 +20,5 @@ null,
 {"id":18,"expanded":false,"name":"Meta","order":18,"parentId":0,"scrollX":474.6666666666667,"scrollY":343.1111111111111},
 {"id":19,"expanded":false,"name":"Final","order":19,"parentId":0,"scrollX":472.8888888888889,"scrollY":342.6666666666667},
 {"id":20,"expanded":false,"name":"FinalConsultorio","order":20,"parentId":0,"scrollX":474.6666666666667,"scrollY":312},
-{"id":21,"expanded":false,"name":"test","order":21,"parentId":0,"scrollX":474.6666666666667,"scrollY":288.8888888888889}
+{"id":21,"expanded":false,"name":"test","order":21,"parentId":0,"scrollX":474.6666666666667,"scrollY":271.1111111111111}
 ]
