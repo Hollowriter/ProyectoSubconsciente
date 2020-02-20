@@ -1,4 +1,4 @@
-//=============================================================================
+﻿//=============================================================================
 // rpg_objects.js v1.6.1
 //=============================================================================
 
@@ -39,6 +39,7 @@ Game_Temp.prototype.reservedCommonEvent = function() {
 };
 
 Game_Temp.prototype.setDestination = function(x, y) {
+    return;
     this._destinationX = x;
     this._destinationY = y;
 };
