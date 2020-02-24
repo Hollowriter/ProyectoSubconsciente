@@ -1,5 +1,5 @@
 [
 null,
 {"id":1,"battlerName":"","characterIndex":0,"characterName":"MCSprShtDirRPGMaker","classId":1,"equips":[],"faceIndex":0,"faceName":"PortraitsMartin","traits":[],"initialLevel":1,"maxLevel":99,"name":"Martin","nickname":"Tincho ","note":"<battle command: attack />\n<battle command: guard />\n<battle command: skill_list />","profile":""},
-{"id":2,"battlerName":"","characterIndex":0,"characterName":"LianaSheet","classId":2,"equips":[],"faceIndex":0,"faceName":"PortraitsLiana","traits":[],"initialLevel":1,"maxLevel":99,"name":"Liana","nickname":"","note":"<battle command: attack />\n<battle command: guard />\n<battle command: skill_list />","profile":""}
+{"id":2,"battlerName":"","characterIndex":0,"characterName":"LianaSheet","classId":2,"equips":[],"faceIndex":7,"faceName":"PortraitsLiana","traits":[],"initialLevel":1,"maxLevel":99,"name":"Liana","nickname":"","note":"<battle command: attack />\n<battle command: guard />\n<battle command: skill_list />","profile":""}
 ]
