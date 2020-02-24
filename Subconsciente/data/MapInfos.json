@@ -20,5 +20,5 @@ null,
 {"id":18,"expanded":true,"name":"Subconciente 1","order":20,"parentId":0,"scrollX":1092,"scrollY":614.6666666666666},
 {"id":19,"expanded":false,"name":"Final","order":11,"parentId":0,"scrollX":1092,"scrollY":614.6666666666666},
 {"id":20,"expanded":false,"name":"FinalConsultorio","order":12,"parentId":0,"scrollX":1092,"scrollY":614.6666666666666},
-{"id":21,"expanded":false,"name":"Subconciente 2","order":21,"parentId":18,"scrollX":0,"scrollY":0}
+{"id":21,"expanded":false,"name":"Subconciente 2","order":21,"parentId":18,"scrollX":1092,"scrollY":614.6666666666666}
 ]
